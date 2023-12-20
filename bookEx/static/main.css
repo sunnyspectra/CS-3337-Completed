@@ -1,0 +1,96 @@
+/*
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.container .row div p {
+  animation: fadeIn 1s ease-in-out;
+}
+*/
+
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f8f9fa; /* Adjust the color */
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Dropdown Menu Styling */
+.navbar .dropdown-menu {
+    display: none; /* Initially hide the dropdown */
+    opacity: 0;
+    transition: opacity 0.5s; /* Smooth transition for the dropdown */
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block; /* Show dropdown on hover */
+    opacity: 1;
+}
+
+/* Jumbotron Styling */
+.jumbotron {
+    background-image: url('booksAboutUs.jpg'); /* Add a background image */
+    background-size: cover;
+    color: black;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.card-img-top {
+    object-fit: cover; /* This will cover the area of the card without stretching the image */
+    height: 200px; /* Set a fixed height for your images */
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Stack the card content vertically */
+}
+
+.card-body {
+    flex: 1; /* This will make the card body fill the space left by the image */
+}
+
+/* Customizing column padding */
+.col-12.col-lg-8 {
+    padding-right: 30px; /* Increase right padding on the left column */
+}
+
+.col-4.d-none.d-lg-block {
+    padding-left: 30px; /* Increase left padding on the right column */
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #f8f9fa; /* Adjust the color */
+    color: black;
+}
+
+
+
